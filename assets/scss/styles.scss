@@ -1,0 +1,32 @@
+/*======= CONFIG =======*/
+
+@import "./config/variables";
+
+/*======= THEME =======*/
+
+@import "./theme/dark";
+
+/*======= BASE =======*/
+
+@import "./base/base";
+
+/*======= LAYOUT =======*/
+
+@import "./layout/layout";
+
+/*======= COMPONENTS =======*/
+
+@import "./components/header";
+@import "./components/home";
+@import "./components/projects";
+@import "./components/services";
+@import "./components/qualification";
+@import "./components/skills";
+@import "./components/testimonial";
+@import "./components/contact";
+@import "./components/scrollbar";
+@import "./components/scrollup";
+
+/*======= SCREEN =======*/
+
+@import "./screen/breakpoints";

@@ -1,0 +1,43 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+
+.container {
+    max-width: 1024px;
+    margin-inline: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section {
+    padding-block: 2.5rem;
+}
+
+.section__border {
+    border-bottom: 1px solid var(--title-color);
+    padding-bottom: 3.5rem;
+}
+
+.section__title,
+.section__subtitle {
+    text-align: center;
+}
+
+.section__title {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: .25rem;
+}
+
+.section__subtitle {
+    display: block;
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+    margin-bottom: 3rem;
+}
+
+.main {
+    overflow: hidden;
+    /* For animation */
+}
